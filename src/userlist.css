@@ -1,0 +1,41 @@
+.user-list-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .user-list-container h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .user-list-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-list-container li {
+    background-color: #fcfcfc;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, background-color 0.3s ease-in-out;  
+  }
+  
+  .user-list-container h3 {
+    margin: 0;
+    color: #2c3e50;
+  }
+  
+  .user-list-container p {
+    margin: 5px 0;
+    color: #7f8c8d;
+  }
+  
+  .user-list-container li:hover {
+    background-color: #c0baba;
+    transform: scale(1.05);  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  }
+  
